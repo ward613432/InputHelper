@@ -119,7 +119,7 @@ public class InputHelper {
             if (!input.isEmpty()) {
                 verify = true;
             } else {
-                System.out.println("Invalid Input.");
+                System.out.println("String cannot be blank. Try again.");
             }
         } while (!verify);
         return input;
